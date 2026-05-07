@@ -11,7 +11,7 @@ CREATE TABLE Teachers (
     specialization VARCHAR(150) NOT NULL,
     hire_date DATE NOT NULL,
     hourly_rate DECIMAL(10, 2) CHECK (hourly_rate >= 0),
-    course_count INTEGER DEFAULT 0 CHECK (course_count >= 0)
+    experience INTEGER DEFAULT 0 CHECK (experience >= 0)
 );
 
 -- Таблица справочника "Курсы обучения"
@@ -36,6 +36,4 @@ CREATE INDEX idx_teachers_specialization ON Teachers(specialization);
 COMMENT ON TABLE Teachers IS 'Справочник преподавателей';
 COMMENT ON TABLE Courses IS 'Справочник курсов обучения';
 COMMENT ON COLUMN Teachers.last_name IS 'Фамилия преподавателя';
-COMMENT ON COLUMN Teachers.first_name IS 'Имя преподавателя';
-COMMENT ON COLUMN Teachers.patronymic IS 'Отчество преподавателя';
 COMMENT ON COLUMN Courses.is_deleted IS 'Флаг мягкого удаления';
