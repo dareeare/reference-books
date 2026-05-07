@@ -36,6 +36,4 @@ CREATE INDEX idx_teachers_specialization ON Teachers(specialization);
 COMMENT ON TABLE Teachers IS 'Справочник преподавателей';
 COMMENT ON TABLE Courses IS 'Справочник курсов обучения';
 COMMENT ON COLUMN Teachers.last_name IS 'Фамилия преподавателя';
-COMMENT ON COLUMN Teachers.first_name IS 'Имя преподавателя';
-COMMENT ON COLUMN Teachers.patronymic IS 'Отчество преподавателя';
 COMMENT ON COLUMN Courses.is_deleted IS 'Флаг мягкого удаления';
