@@ -22,6 +22,7 @@ CREATE TABLE Courses (
     start_date DATE,
     course_cost DECIMAL(10, 2) CHECK (course_cost >= 0),
     total_hours INTEGER CHECK (total_hours > 0),
+    description TEXT,
     is_deleted BOOLEAN DEFAULT FALSE,
     CONSTRAINT fk_courses_teacher FOREIGN KEY (teacher_id) 
         REFERENCES Teachers(teacher_id) ON DELETE SET NULL
@@ -37,3 +38,10 @@ COMMENT ON TABLE Teachers IS 'Справочник преподавателей'
 COMMENT ON TABLE Courses IS 'Справочник курсов обучения';
 COMMENT ON COLUMN Teachers.last_name IS 'Фамилия преподавателя';
 COMMENT ON COLUMN Courses.is_deleted IS 'Флаг мягкого удаления';
+COMMENT ON COLUMN Courses.description IS 'Многострочное описание курса';
+
+ALTER TABLE Teachers
+ADD CHECK (specialization IN ('Программирование Java', 'Программирование Python', 'SQL-разработчик', 'Веб-разработка', 'Мобильные приложения', 'Искусственный интеллект', 'DevOps', 'Тестирование QA'));
+
+ALTER TABLE Courses
+ADD COLUMN description TEXT;
