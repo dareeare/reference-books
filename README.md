@@ -21,3 +21,35 @@
 | Дата старта | Дата | Первый день занятий |
 | Стоимость курса | Число с фиксированной запятой | Цена за весь курс (BYN) |
 | Количество часов | Целое число | Общая длительность в часах |
+
+## Технологии
+База данных: PostgreSQL
+Язык программирования: Java
+## Скриншоты
+### Справочник «Преподаватели»
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0ee029b3-9d92-419d-becf-ba99e9e812d7" />
+
+### Добавить преподавателя
+<img width="607" height="427" alt="image" src="https://github.com/user-attachments/assets/e72b0114-dbae-477e-a2b0-396e0e73deed" />
+Специальность можно выбрать из предложенного списка
+
+### Редактировать преподавателя
+<img width="603" height="426" alt="image" src="https://github.com/user-attachments/assets/28158154-1423-4c03-acbd-18c46417c143" />
+
+### Удалить преподавателя
+<img width="482" height="149" alt="image" src="https://github.com/user-attachments/assets/91c179b3-7e98-49b5-b8c0-6080960d73b9" />
+
+### Справочник «Курсы обучения» 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ac06f73-d1f5-4eac-b590-736bac5f6f29" />
+
+### Добавить курс
+<img width="604" height="613" alt="image" src="https://github.com/user-attachments/assets/800cec86-f810-4632-8d3f-862e6a3a2992" />
+В выпадающем списке можно выбрать преподавателя из справочника "Преподаватели"
+<img width="361" height="117" alt="image" src="https://github.com/user-attachments/assets/d2d94a9a-e593-4575-9bb3-98f7a9a45a43" />
+
+### Редактировать курс
+<img width="604" height="613" alt="image" src="https://github.com/user-attachments/assets/5f07d945-6311-44bb-a8d6-70518d4174a4" />
+
+### Удалить курс
+<img width="402" height="149" alt="image" src="https://github.com/user-attachments/assets/59733c78-3c81-4ef0-9df2-316f63a45e96" />
+
