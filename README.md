@@ -31,6 +31,8 @@
 
 ### Добавить преподавателя
 <img width="607" height="427" alt="image" src="https://github.com/user-attachments/assets/e72b0114-dbae-477e-a2b0-396e0e73deed" />  
+
+
 Специальность можно выбрать из предложенного списка
 
 ### Редактировать преподавателя
@@ -44,6 +46,8 @@
 
 ### Добавить курс
 <img width="604" height="613" alt="image" src="https://github.com/user-attachments/assets/800cec86-f810-4632-8d3f-862e6a3a2992" />  
+
+
 В выпадающем списке можно выбрать преподавателя из справочника "Преподаватели"
 <img width="361" height="117" alt="image" src="https://github.com/user-attachments/assets/d2d94a9a-e593-4575-9bb3-98f7a9a45a43" />
 
